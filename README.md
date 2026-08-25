@@ -1,6 +1,7 @@
 # Homebrew tap for cxa
 
-Install [`cxa`](https://github.com/jesse-merhi/cxa) with one command:
+Once `Formula/cxa.rb` has been published by a stable
+[`cxa`](https://github.com/jesse-merhi/cxa) release, install it with one command:
 
 ```sh
 brew install jesse-merhi/tap/cxa
@@ -12,5 +13,4 @@ Homebrew adds this tap automatically. To add it without installing `cxa`, run:
 brew tap jesse-merhi/tap
 ```
 
-The `cxa` release workflow updates `Formula/cxa.rb` whenever a tagged release
-is published.
+Stable tagged `cxa` releases publish or update `Formula/cxa.rb`.
